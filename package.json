@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint index.js public/*.js --fix"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,9 @@
     "socket.io": "^2.0.3"
   },
   "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
     "nodemon": "^1.12.1"
   }
 }
